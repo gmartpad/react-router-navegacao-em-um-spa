@@ -11,7 +11,7 @@ const Home = () => {
       <div className="container">
         <h2 className="titulo-pagina">Pet notícias</h2>
       </div>
-      <ListaCategorias url="/categorias" />
+      <ListaCategorias />
       <ListaPost url="/posts"/>
       
     </main>
